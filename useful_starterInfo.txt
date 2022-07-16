@@ -19,6 +19,9 @@
 
 
 
+IMPORTANT! Afer initiallizing everything just run in the terminal: 
+"Install package 'python3-pip' to provide command 'pip'? [N/y] y" or a pip install command 
+
 
 
 
