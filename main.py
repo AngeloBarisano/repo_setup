@@ -20,3 +20,6 @@ import random
 print(random.randint(1, 100))
 
 
+import matplotlib.pyplot as plt 
+
+plt.plot()
