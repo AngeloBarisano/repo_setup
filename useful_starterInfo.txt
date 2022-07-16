@@ -1,0 +1,57 @@
+# create venv
+1. create folder
+2. run: python3 -m venv folder_name
+3. run: cd folder_name
+4. run: code . 
+
+
+# link to git (in folder_name)
+1. run: git init
+2. run: git add .
+3. run: git commit -m "initial commit"
+4. git remote add origin "https from the git repo you want to push to"
+4. git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# create python virtual environment with vs code
+1. create a folder in repositories folder
+2. code: "python3 -m venv folder_name"
+3. change directory to folder "cd folder_name"
+4. check whether venv was set up by executing "ls" which should list a couple of files
+5. open vscode "code ." 
+
+6. Jupyter notebook file etc --> main.ipynb etc
+
+
+
+
+
+
+
+# create new repository on git and link it to this folder created above 
+the assumption is that you are in the folder above
+1. git init 
+2. git add .
+3. git commit -m "initial commit"
+4. git push (origin remote etc)
+
+
+
+# set up linter for code norm control
+1. setting open command palette
+2. seach linter
+3. choose python: select linter
+4. select pylint
