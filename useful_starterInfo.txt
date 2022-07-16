@@ -22,6 +22,9 @@
 IMPORTANT! Afer initiallizing everything just run in the terminal: 
 "Install package 'python3-pip' to provide command 'pip'? [N/y] y" or a pip install command 
 
+IMPORTANT! You should always use the bash TERMINAL (lower right next the terminal window) to add, commit, and push stuff!!!
+
+
 
 
 
