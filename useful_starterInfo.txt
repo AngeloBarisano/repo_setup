@@ -1,11 +1,13 @@
 # create venv
 1. create folder
 2. run: python3 -m venv folder_name
-2.5 activate the virtual environment
+
+3 activate the virtual environment
 # source /path/to/new/virtual/environment/bin/activate
 # in this case this resulted in: source customer_analytics_course_2022/bin/activate
-3. run: cd folder_name
-4. run: code . 
+4. run: cd folder_name
+5. run: code . 
+
 
 # ACTIVATE THE VIRTUAL environment INSIDE VSCODE!!!
 1. ctrl + shift + p
@@ -14,6 +16,8 @@
 3. Once you locate your virtual env select your python version:
     your-virtual-env > bin > python3.
 4. restart your terminal and you should be in the virtual environment
+
+
 # To do it permanently do the following:
 1. open the project 
 2. navigate to file > preferences > settings
@@ -39,10 +43,6 @@
 4. git push origin master
 
 
-
-
-#source /path/to/new/virtual/environment/bin/activate
-# in this case this resulted in: source customer_analytics_course_2022/bin/activate
 
 # run in the same terminal
 import sys
