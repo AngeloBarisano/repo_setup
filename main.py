@@ -1,6 +1,10 @@
 # auto docstring
 # to activate type three times double quote (""") in function
 
+import json
+import random
+import matplotlib.pyplot as plt 
+
 def add(a: int, b: int) -> int:
     """_summary_
 
@@ -14,12 +18,9 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
-import json
-import random
 
 print(random.randint(1, 100))
 
 
-import matplotlib.pyplot as plt 
 
 plt.plot()
