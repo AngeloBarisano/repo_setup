@@ -1,6 +1,9 @@
 # create venv
 1. create folder
 2. run: python3 -m venv folder_name
+2.5 activate the virtual environment
+# source /path/to/new/virtual/environment/bin/activate
+# in this case this resulted in: source customer_analytics_course_2022/bin/activate
 3. run: cd folder_name
 4. run: code . 
 
@@ -15,6 +18,19 @@
 
 
 
+#source /path/to/new/virtual/environment/bin/activate
+# in this case this resulted in: source customer_analytics_course_2022/bin/activate
+
+# run in the same terminal
+import sys
+
+
+real_prefix = getattr(sys, "real_prefix", None)
+base_prefix = getattr(sys, "base_prefix", sys.prefix)
+
+running_in_virtualenv = (base_prefix or real_prefix) != sys.prefix
+
+running_in_virtualenv
 
 
 
