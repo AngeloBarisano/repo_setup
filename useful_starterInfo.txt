@@ -7,6 +7,29 @@
 3. run: cd folder_name
 4. run: code . 
 
+# ACTIVATE THE VIRTUAL environment INSIDE VSCODE!!!
+1. ctrl + shift + p
+2.  Locate your Virtual Environment:
+    Python: select interpreter > Enter interpreter path > Find
+3. Once you locate your virtual env select your python version:
+    your-virtual-env > bin > python3.
+4. restart your terminal and you should be in the virtual environment
+# To do it permanently do the following:
+1. open the project 
+2. navigate to file > preferences > settings
+3. on the top right find the settings.json
+4. fill it with the following json (and adjust the path to the specific python IN THE DIRECTORY!!)
+"{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.defaultInterpreterPath": "~/repos/vscode_repos/venv_vs_python_test/bin/python3"
+
+}"
+5. now save it and return back to the main terminal; close it; press control+ shift + package
+6. select interpreter: python.defaultinterpreterpath
+7. restart terminal to see whether you are in the venv
+
 
 # link to git (in folder_name)
 1. run: git init
